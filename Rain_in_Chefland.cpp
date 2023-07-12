@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int x;
+	    cin>>x;
+	    if(x<3)
+	    {
+	        cout<<"LIGHT"<<endl;
+	    }
+	    else if(3<=x && x<7)
+	    {
+	        cout<<"MODERATE"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"HEAVY"<<endl;
+	    }
+	}
+	return 0;
+}
